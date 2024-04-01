@@ -18,4 +18,10 @@ jobs:
         with:
           arguments: list-cores
           libraries: https://github.com/olofk/serv
+  encore:
+    name: give it a try
+    uses: librecores/ci-fusesoc-action@v1
+    with:
+      core: myorg:mylib:mycore
+      target: lint
 
